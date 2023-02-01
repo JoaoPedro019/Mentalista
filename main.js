@@ -11,7 +11,7 @@ function Game() {
           alert("Parabéns, você acertou!")
       }
         if (tentativa != numeroSecreto) {
-          tentativa = tentativa - 1
+          tentativa = tentativa - 1;
       }
         if (tentativa <= 0) {
         alert("Você infelizmente perdeu, a resposta era " + númeroOculto + ", boa sorte na próxima")

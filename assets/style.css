@@ -68,3 +68,12 @@ body {
     width: 50px;
   }
   
+  .box-text {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+  }
+
+
+  
